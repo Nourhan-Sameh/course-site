@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(to bottom right,#4C585B,#7e99a3d3,#F4EDD3 );
+    background-color:#4C585B;
+    height: 100vh;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-style: initial;
+    
+
+}
+form{
+    background-color: rgba(126, 153, 163, 0.827) ;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+}
+ form input{
+    background-color:#F4EDD3;
+    border: none;
+    outline: none;
+    color: rgb(71, 67, 67);
+    font-weight: bold;
+    padding: 5px 10px;
+    width: 200px;
+    flex-grow: 1;
+
+}
+button{
+    background-color: #A5BFCC;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 30px;
+    flex-grow: 1;
+
+}

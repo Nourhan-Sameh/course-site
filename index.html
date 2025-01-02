@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--primary meta tag-->
+    <title>ITC - An Egyptian information technology company</title>
+    <meta
+      name="title"
+      content="ITC - An Egyptian information technology company"
+    />
+
+    <!-- ITCicon-->
+    <link rel="shortcut icon" href="./ITCicon.svg" type="image/svg+xml" />
+
+    <!--custom css link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="top">
+    <!--HEADER-->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.jpeg"
+            width="70"
+            height="40"
+            alt="ITC logo"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="wrapper">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.jpeg"
+                width="70"
+                height="40"
+                alt="ITC logo"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+             
+                <a href="form.html" class="navbar-link" data-nav-link>Sign</a>
+            
+            </li>
+
+            <li class="navbar-item">
+              <a href="#courses" class="navbar-link" data-nav-link>Courses</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link" data-nav-link>About</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#footer" class="navbar-link" data-nav-link>Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+      <div class="header-actions">
+        <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+    </header>
+
+    <main>
+      <article>
+        <!--HERO-->
+
+        <section
+          class="section hero has-bg-image"
+          id="home"
+          aria-label="home"
+          style="background-image: url('./assets/images/hero-bg.svg')"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 section-title">
+                Welcome To <span class="span">ITC</span> For Courses
+              </h1>
+
+              <p class="hero-text">
+                An Egyptian information technology company established in 2005
+                that offers courses in networking, programming, web design ..etc
+              </p>
+
+              <a href="#courses" class="btn has-before">
+                <span class="span">Find courses</span>
+
+                <ion-icon
+                  name="arrow-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </div>
+
+            <figure class="hero-banner">
+              <div class="img-holder one" style="--width: 270; --height: 300">
+                <img
+                  src="./assets/images/hero-banner-1.jpg"
+                  width="270"
+                  height="300"
+                  alt="hero banner"
+                  class="img-cover"
+                />
+              </div>
+
+              <div class="img-holder two" style="--width: 240; --height: 370">
+                <img
+                  src="./assets/images/computer.jpg"
+                  width="250"
+                  height="370"
+                  alt="hero banner"
+                  class="img-cover"
+                />
+              </div>
+
+              <img
+                src="./assets/images/hero-shape-2.png"
+                width="622"
+                height="551"
+                alt=""
+                class="shape hero-shape-2"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!--COURSES-->
+
+        <section class="section category" id="courses" aria-label="category">
+          <div class="container">
+            <h2 class="h2 section-title">
+              Our <span class="span">Courses</span>
+            </h2>
+
+            <p class="section-text">You can choose from the following</p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="category-card" style="--color: 170, 75%, 41%">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/category-1.svg"
+                      width="40"
+                      height="40"
+                      loading="lazy"
+                      alt="AI Course"
+                      class="img"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">AI Course</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Artificial intelligence (AI) is a set of technologies that
+                    enable computers to perform a variety of advanced functions.
+                  </p>
+
+                  <span class="card-badge">600 L.E</span>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card" style="--color: 351, 83%, 61%">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/category-2.svg"
+                      width="40"
+                      height="40"
+                      loading="lazy"
+                      alt="Network Course"
+                      class="img"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Network Course</a>
+                  </h3>
+
+                  <p class="card-text">
+                    A network consists of two or more computers that are linked
+                    in order to share resources (such as printers and CDs),
+                    exchange files.
+                  </p>
+
+                  <span class="card-badge">400 L.E</span>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card" style="--color: 229, 75%, 58%">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/category-3.svg"
+                      width="40"
+                      height="40"
+                      loading="lazy"
+                      alt="Programming Course"
+                      class="img"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Programming Course</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Programming refers to a process for telling a computer tasks
+                    to perform in order to solve problems. e.g (c++ ,c#
+                    ,python).
+                  </p>
+
+                  <span class="card-badge">500 L.E</span>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card" style="--color: 42, 94%, 55%">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/category-4.svg"
+                      width="40"
+                      height="40"
+                      loading="lazy"
+                      alt="ICDL"
+                      class="img"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">ICDL</a>
+                  </h3>
+
+                  <p class="card-text">
+                    ICDL Foundation is a Global Social Enterprise dedicated to
+                    raising digital competence standards in the Workforce,...
+                  </p>
+
+                  <span class="card-badge">300 L.E</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!--ABOUT-->
+
+        <section class="section about" id="about" aria-label="about">
+          <div class="container">
+            <figure class="about-banner">
+              <div class="img-holder" style="--width: 520; --height: 370">
+                <img
+                  src="./assets/images/about-banner.jpg"
+                  width="520"
+                  height="370"
+                  loading="lazy"
+                  alt="about banner"
+                  class="img-cover"
+                />
+              </div>
+
+              <img
+                src="./assets/images/about-shape-3.png"
+                width="722"
+                height="528"
+                loading="lazy"
+                alt=""
+                class="shape about-shape-3"
+              />
+            </figure>
+
+            <div class="about-content">
+              <p class="section-subtitle">About Us</p>
+
+              <h2 class="h2 section-title">
+                Over 18 years in <span class="span">learning courses</span> for
+                Skill Development
+              </h2>
+
+              <p class="section-text">
+                we have succeeded in completing ICDL explanations and exams for
+                more than 25,000 students, and other educational courses in the
+                field of information technology, which reached more than 15,000
+                training courses between networks, programming, web design, and
+                others.
+              </p>
+
+              <ul class="about-list">
+                <li class="about-item">
+                  <ion-icon
+                    name="checkmark-done-outline"
+                    aria-hidden="true"
+                  ></ion-icon>
+
+                  <span class="span">Expert Trainers</span>
+                </li>
+
+                <li class="about-item">
+                  <ion-icon
+                    name="checkmark-done-outline"
+                    aria-hidden="true"
+                  ></ion-icon>
+
+                  <span class="span">Certified certificates</span>
+                </li>
+
+                <li class="about-item">
+                  <ion-icon
+                    name="checkmark-done-outline"
+                    aria-hidden="true"
+                  ></ion-icon>
+
+                  <span class="span">Strong approaches</span>
+                </li>
+              </ul>
+
+              <img
+                src="./assets/images/about-shape-4.svg"
+                width="100"
+                height="100"
+                loading="lazy"
+                alt=""
+                class="shape about-shape-4"
+              />
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer
+      class="footer"
+      id="footer"
+      style="background-image: url('./assets/images/footer-bg.png')"
+    >
+      <div class="footer-top section">
+        <div class="container grid-list">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.jpeg"
+                width="70"
+                height="50"
+                alt="ITC logo"
+              />
+            </a>
+
+            <p class="footer-brand-text">
+              An Egyptian information technology company established in 2005
+              that offers courses in networking, programming, web design ..etc
+            </p>
+
+            <div class="wrapper">
+              <span class="span">Add:</span>
+              <address class="address">
+                Tanta,Omar Bin Abdulaziz Street, next to Nile Hospital
+              </address>
+            </div>
+          </div>
+
+          <ul class="footer-list">
+            <li><p class="footer-list-title"></p></li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">ITC</p>
+            </li>
+            <li>
+              <a href="#home" class="footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#courses" class="footer-link">Courses</a>
+            </li>
+            <li>
+              <a href="#about" class="footer-link">About</a>
+            </li>
+            <li>
+              <a href="#footer" class="footer-link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="footer-list">
+            <p class="footer-list-title">Contacts</p>
+
+            <div class="wrapper">
+              <span class="span">Call:</span>
+              <p class="footer-link">+201001863307<br />+201000790696</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--BACK TO TOP-->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back top top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!--ionicon link-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+
+    <!--custom js link-->
+    <script src="./assets/js/script.js" defer></script>
+
+    
+  </body>
+</html>
